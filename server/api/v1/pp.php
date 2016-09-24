@@ -59,7 +59,7 @@ require 'functions.php';
 
 	$id = sanitize($uid);
 
-	 $path = 'http://'.$_SERVER['SERVER_NAME'].'/projectponyville/';
+	 $path = 'http://'.$_SERVER['SERVER_NAME'].':'.$_SERVER['SERVER_PORT'].'/';
 		$html = '<html>
 				 <head>
 				 <title>'.$id.'\'s Achievements - ProjectPonyville</title>
