@@ -1,0 +1,47 @@
+h1{
+
+}
+
+body{
+	
+}
+
+table{
+	border: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+tr{
+	/*
+	border-top-style: 1px solid;
+	border-right-style: 1px solid;
+	border-bottom-style: 1px solid;
+	border-left-style: 1px solid;
+	*/
+}
+
+#achievement_image{
+	width: 256px;
+	height: 256px;
+}
+
+#achievement_name{
+	font-style: oblique;
+	text-decoration: underline;
+	text-transform: uppercase;
+	text-align: center justify;
+}
+
+#achievement_desc{
+	text-align: center justify;
+}
+
+#achievement_desc_name{
+	padding: 100px 100px 100px 100px
+}
+
+img{
+	width: 256px;
+	height: 256px;
+}
