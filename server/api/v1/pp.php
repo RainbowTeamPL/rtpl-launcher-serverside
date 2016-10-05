@@ -209,6 +209,38 @@ require 'functions.php';
     public function e404() {
         echo '404';
     }
+	
+	/**
+     * POST Saves in Pastebin
+     * Gets data
+	 *
+     * @url POST /save/pastebin
+     */
+    public function pastebin_save()
+    {
+		require 'private_keys.php';
+        require 'functions.php';
 
+		$data = sanitize($_POST['data']);
+		
+		$draft = new Draft(); // drafts represent unsent pastes
+		$draft->setContent($data); // set the paste content
+
+		// the Developer class encapsulates a developer API key; an instance
+		// needs to be provided whenever Brush might interact with Pastebin
+		$developer = new Developer($PastebinDeveloperKey);
+
+		try {
+			// send the draft to Pastebin; turn it into a full blown Paste object
+			$paste = $draft->paste($developer);
+
+			// print out the URL of the new paste
+			echo $paste->getUrl(); // e.g. http://pastebin.com/JYvbS0fC
+		}
+		catch (BrushException $e) {
+			// some sort of error occurred; check the message for the cause
+			echo $e->getMessage();
+		}
+	}
 
 }
