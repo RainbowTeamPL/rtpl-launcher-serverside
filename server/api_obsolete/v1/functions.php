@@ -28,7 +28,3 @@ function cleanInput($input) {
     }
     return $output;
 }
-
-function printStats(){
-	echo('API Version: 1');
-}
