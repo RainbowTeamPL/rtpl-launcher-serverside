@@ -104,5 +104,23 @@
     "\\ProjectPonyville_Data\\StreamingAssets\\Lang\\Polski\\ui.xml": "9f493522566a88d3d81a822bfb8b7502",
     "\\ProjectPonyville_Data\\StreamingAssets\\Lang\\Polski\\xml2txt.cmd": "04ab26085df40d21d47bcb15ad2d8b8c",
     "\\ProjectPonyville_Data\\StreamingAssets\\Lang\\Polski\\Dialogs\\vo_intro1_gotcha.xml": "11424ac49175d1bb82b98cb5a05d0f70"
-  }
+  },
+  "Folders": [
+    "\\ProjectPonyville_Data",
+    "\\ProjectPonyville_Data\\Managed",
+    "\\ProjectPonyville_Data\\Mono",
+    "\\ProjectPonyville_Data\\Plugins",
+    "\\ProjectPonyville_Data\\Resources",
+    "\\ProjectPonyville_Data\\StreamingAssets",
+    "\\ProjectPonyville_Data\\Mono\\etc",
+    "\\ProjectPonyville_Data\\Mono\\etc\\mono",
+    "\\ProjectPonyville_Data\\Mono\\etc\\mono\\1.0",
+    "\\ProjectPonyville_Data\\Mono\\etc\\mono\\2.0",
+    "\\ProjectPonyville_Data\\Mono\\etc\\mono\\mconfig",
+    "\\ProjectPonyville_Data\\Mono\\etc\\mono\\2.0\\Browsers",
+    "\\ProjectPonyville_Data\\StreamingAssets\\AnimTextures",
+    "\\ProjectPonyville_Data\\StreamingAssets\\Lang",
+    "\\ProjectPonyville_Data\\StreamingAssets\\Lang\\Polski",
+    "\\ProjectPonyville_Data\\StreamingAssets\\Lang\\Polski\\Dialogs"
+  ]
 }
