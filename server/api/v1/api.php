@@ -9,7 +9,10 @@
                 printStats();
             break;
             case 'login':
-                
+                $login = $_GET['l'];
+				$pw = $_GET['pw'];
+				
+				echo'ok|'.$login.'|'.$pw;
             break;
             case 'logout':
                 
